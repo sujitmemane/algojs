@@ -1,0 +1,17 @@
+RECURSION PRACTICE QUESTIONS
+
+EASY:
+1. Calculate factorial of a number using recursion.
+2. Find the sum of all elements of an array using recursion.
+3. Reverse a string using recursion.
+4. Check whether a given string is a palindrome using recursion.
+5. Find the maximum element in an array using recursion.
+
+MEDIUM:
+1. Calculate power of a number (x^n) using recursion with O(log n) time complexity.
+2. Check if an array is sorted in ascending order using recursion.
+3. Generate all subsets (power set) of a given array/string using recursion.
+4. Find the first and last occurrence of a target element in an array using recursion.
+5. Convert a numeric string to an integer (atoi) using recursion, without built-in parsing functions.
+6. Write a function to make fibonnachi series
+

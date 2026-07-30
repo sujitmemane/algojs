@@ -20,14 +20,34 @@ function bubbleSort(nums){
         }
         if(!swapped)break
      }
-
+ 
     return nums
 
 }
 
 
-function selectionSort(nums){
 
+/*
+Time complexity of selection sort is O(n^2)
+*/
+
+
+function selectionSort(nums){
+  const n = nums.length
+  for(let i=0;i<n-1;i++){
+    let min = i
+    for(let j=i+1;j<n;j++){
+        if(nums[j]<nums[min]){
+            min=j
+        }
+    }
+    if(min!==i){
+        [nums[min],nums[i]]=[nums[i],nums[min]]
+    }
+  }
+  return nums
 }
+
+console.log(selectionSort(nums))
 
 

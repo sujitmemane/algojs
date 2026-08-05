@@ -27,6 +27,9 @@ function bubbleSort(nums){
 
 
 
+
+
+
 /*
 Time complexity of selection sort is O(n^2)
 */
@@ -48,6 +51,33 @@ function selectionSort(nums){
   return nums
 }
 
-console.log(selectionSort(nums))
 
 
+
+
+function insertionSort(nums) {
+    const n = nums.length;
+
+    for (let i = 1; i < n; i++) {
+        let curr = nums[i];
+        let prev = i - 1;
+
+        while (prev >= 0 && nums[prev] > curr) {
+            nums[prev + 1] = nums[prev];
+            prev--;
+        }
+
+        nums[prev + 1] = curr;
+    }
+
+    return nums;
+}
+
+console.log(insertionSort([5, 4, 3, 2, 1]));
+
+
+
+
+
+
+console.log(insertionSort(nums))

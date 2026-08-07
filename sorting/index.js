@@ -73,11 +73,12 @@ function insertionSort(nums) {
     return nums;
 }
 
-console.log(insertionSort([5, 4, 3, 2, 1]));
 
 
 
+function pracSelectionSort(nums){
+  const n = nums.lenght
+  for(let i)
 
 
-
-console.log(insertionSort(nums))
+}
